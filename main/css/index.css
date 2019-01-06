@@ -3,7 +3,7 @@
     background-image:url(../../img/main_waterbackground.jpg);
 }
 
-.wrapper{
+.main_wrapper{
   width:1025px;
   margin:0 auto;
 }
@@ -25,10 +25,6 @@
     display:flex;
     align-items:center;
     justify-content:space-around;
-}
-
-.main_header_menu_nav>li{
-    flex-direction:row;
 }
 
 .main_header_menu_nav>li>a.main_header_menu_nav_page{
@@ -69,7 +65,7 @@
     border-bottom-style:solid;
     z-index:5;
     position:absolute;
-    bottom:-120px;
+    bottom:-140px;
     left:275px;
     border-radius: 5px;
     color:#7E7C7C;
@@ -118,7 +114,7 @@
     text-transform:uppercase;
     font-family:arial;
     color:#FFFFFF;
-    font-size:40px;
+    font-size:42px;
     font-stretch:ultra-condensed;
     font-weight:100;
     padding-top:165px;
