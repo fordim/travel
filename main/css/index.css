@@ -31,7 +31,7 @@
     flex-direction:row;
 }
 
-.main_header_menu_nav>li>a{
+.main_header_menu_nav>li>a.main_header_menu_nav_page{
     color:#8D8D8D;
     font-family:arial;
     text-decoration:none;
@@ -39,6 +39,25 @@
     font-weight:100;
 }
 
+.main_header_menu_nav_contact{
+    display: block;
+    color: white;
+    width:100px;
+    height:30px;
+    font-family:arial;
+    text-decoration:none;
+    font-stretch:ultra-condensed;
+
+    border: 1px solid rgb(31, 120, 226);
+    border-radius: 5px;
+    background: linear-gradient(rgb(52, 174, 246), rgb(35, 139, 233));
+    font-size:18px;
+    font-weight:100;
+    text-align:center;
+    padding:5px;
+}
+
+.main_header_menu_nav_contact:hover{background:linear-gradient(rgb(144, 199, 245), rgb(125, 185, 235));}
 
 .main_middle_block{
     height:240px;
