@@ -60,26 +60,26 @@
     border-right:1px solid white;
 }
 
-.shop_main{
+.shop_top_menu{
     background-color:rgb(255, 255, 255);
     height:107px;
     display:flex;
     justify-content:space-between;
 }
 
-.shop_main_logo{
+.shop_top_menu_logo{
     display:block;
     margin-left:185px;
 }
 
-.shop_main_menu{
+.shop_top_menu_top{
     width:420px;
     display:flex;
     justify-content:space-around;
     align-items:center;
 }
 
-.shop_main_menu>li>a{
+.shop_top_menu_top>li>a{
     color:rgb(111, 111, 111);
     text-decoration:none;
     font-weight:600;
@@ -87,19 +87,94 @@
     font-family:arial;
 }
 
-.shop_main_search{
+.shop_top_menu_search{
     width:175px;
     border:1px solid lightgrey;
     height:27px;
     margin-top:38px;
+
 }
 
-.shop_main_search>p{
-    color:grey;
-    padding:3px;
+#shop_top_menu_search_field{
+    width:146px;
+    height:25px;
+    float:right;
+    border:none;
+    color:rgb(111, 111, 111);
+    box-sizing:border-box;
+    padding-left:10px;
 }
 
-.shop_main_right_buttons{
+.shop_top_menu_search_img{
+    float:right;
+}
+
+.shop_top_menu_right_buttons{
     width:160px;
+    height:41px;
     margin-right:185px;
+    margin-top:31px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.shop_top_menu_right_text{
+    color:rgb(111, 111, 111);
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+    font-family:arial;
+    height:20px;
+    margin:10px 0px 10px 15px;
+}
+
+.shop_top_block_advertising{
+    height:475px;
+    width:1400px;
+    background-image:url(../img/shop_top_advertizing.png);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.shop_top_block_arrow{
+    height:68px;
+    width:68px;
+    border-radius:50%;
+    background-image:url(../img/shop_left_advertizing.png);
+    background-repeat:no-repeat;
+    background-position: 50%;
+    background-color:white;
+}
+
+.shop_top_block_arrow_left{
+    background-image:url(../img/shop_left_advertizing.png);
+    margin-left:115px;
+}
+
+.shop_top_block_arrow_right{
+    background-image:url(../img/shop_right_advertizing.png);
+    margin-right:115px;
+}
+
+.shop_main{
+    width:1400px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    padding-top:45px;
+}
+
+.shop_main_products{
+    width:765px;
+    margin-left:185px;
+    border:1px solid red;
+    height:1000px;
+}
+
+.shop_main_advertising{
+    width:240px;
+    margin-right:185px;
+    border:1px solid red;
+    height:1000px;
 }
